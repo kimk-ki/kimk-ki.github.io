@@ -53,7 +53,7 @@
         {% endfor %}
 
         <span class="nav__sub-title" v-on:click='togglec()'><a href="/categories/프로그래밍">코드리뷰 ({{ site.categories['프로그래밍'].size }})</a></span>
-        <span class="nav__sub-title" v-on:click='togglec()'><a href="/categories/공부">선형대수 ({{ site.categories['공부'].size }})</a></span>
+        <span class="nav__sub-title" v-on:click='togglec()'><a href="/categories/선형대수">선형대수 ({{ site.categories['선형대수'].size }})</a></span>
         <span class="nav__sub-title" v-on:click='togglec()'><a href="/categories/AI소식">최적화 ({{ site.categories['AI소식'].size }})</a></span>
 
         <!-- <span class="nav__sub-title" v-on:click='togglet()'>tags</span>
